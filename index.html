@@ -1,0 +1,270 @@
+<html lang="en">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta charset="UTF-8" />
+    <meta name="description" content="This is a jewellers website" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jewellers</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Montserrat:wght@400&family=Source+Serif+Pro:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-content">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Jewellery</a>
+          <img src="/static/images/logo-removebg-preview.png" alt="" />
+          <img src="/static/images/logo-wide.png" alt="">
+          <a href="#">Watches</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Blog</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="true"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="/static/images/Lowest-Gold-Rate_3.jpg"
+              class="d-block"
+              width="1920"
+              height="800"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/static/images/Banner-2.jpg"
+              class="d-block"
+              width="1920"
+              height="800"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/static/images/banner-3.jpg"
+              class="d-block"
+              width="1920"
+              height="800"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="products-section">
+        <div class="products-head">
+          <h1>Our Products</h1>
+        </div>
+        <div class="products-body">
+          <!-- Dynamically add content here -->
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Buy Product</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <img src="" alt="" id="modal-img" class="container" />
+              <p id="modal-name">Product Name</p>
+              <p id="modal-price">Product Price</p>
+              <p id="modal-desc">Product Desc</p>
+              <button class="btn btn-success" id="buy-button">Buy Now</button>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-section">
+        <div class="about-head">
+          <h1>About Us</h1>
+        </div>
+        <div class="about-body">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
+            earum debitis, obcaecati accusamus explicabo quas possimus repellat
+            doloremque, totam ducimus quidem inventore consectetur maiores
+            asperiores? Mollitia expedita placeat, sequi fugit blanditiis nam
+            quam magnam error nihil, eligendi explicabo illo eaque quo facere
+            vel quisquam totam unde! Nisi voluptatem dolorem nostrum?
+          </p>
+        </div>
+      </div>
+      <div class="product-categories">
+        <div class="about-head">
+          <h1>Product Categories</h1>
+        </div>
+        <div class="categories-body">
+          <a href=""
+          ><img src="/static/images/Amina Diamond Earrings.avif" alt=""
+          /></a>
+          <div class="design">
+            <h3>Have a look at our <span class="design-text"> designs </span></h3>
+            <a href="">View All</a>
+          </div>
+          <a href=""
+            ><img src="/static/images/Campanuley Diamond Necklace.avif" alt=""
+          /></a>
+          <a href=""
+            ><img src="/static/images/Chrisoula Diamond Earrings.avif" alt=""
+          /></a>
+          <a href=""
+            ><img src="/static/images/Foliole Diamond Necklace.avif" alt=""
+          /></a>
+          <a href=""
+            ><img src="/static/images/Madeline Diamond Kada.avif" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="locate">
+        <div class="about-head">
+          <h1>Locate Us</h1>
+        </div>
+        <div class="locate-body">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.932701107358!2d88.34888031525445!3d22.544193639693386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277ea20490ba5%3A0xd77b084dc0d30262!2sPalsani%20Jewellers%20Private%20Limited!5e0!3m2!1sen!2sin!4v1661781714931!5m2!1sen!2sin"
+            width="960"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </main>
+    <!-- footer started -->
+    <footer>
+      <div class="footer-about">
+        <div class="subhead-head">
+          <h4>About Us</h4>
+        </div>
+        <div class="subhead-body">
+          <ul>
+            <a href=""><li>About Our Company</li></a>
+            <a href=""><li>Terms and Conditions</li></a>
+            <a href=""><li>Privacy Policy</li></a>
+            <a href=""><li>FAQ</li></a>
+            <a href=""><li>Offers T&Cs</li></a>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-whyus">
+        <div class="subhead-head">
+          <h4>Why Us?</h4>
+        </div>
+        <div class="subhead-body">
+          <ul>
+            <a href=""><li>15-Day Returns</li></a>
+            <a href=""><li>Cancel & Refund</li></a>
+            <a href=""><li>Lifetime Exchange</li></a>
+            <a href=""><li>DGRP</li></a>
+            <a href=""><li>Certified Jewellery</li></a>
+            <a href=""><li>Wallet</li></a>
+            <a href=""><li>Jewellery Insurance</li></a>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-contact">
+        <div class="subhead-head">
+          <h4>Contact Us</h4>
+        </div>
+        <div class="subhead-body">
+          <a href=""><img src="/static/images/facebook_color_1.svg" alt="" /></a>
+          <a href=""><img src="/static/images/instagram_color_1.svg" alt="" /></a>
+          <a href=""><img src="/static/images/twitter_color_1.svg" alt="" /></a>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
