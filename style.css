@@ -3,7 +3,9 @@
    margin: 0;
    padding: 0;
 }
-
+body {
+   zoom: 90%;
+}
 nav {
    height: fit-content;
    background: rgb(72, 41, 41);
